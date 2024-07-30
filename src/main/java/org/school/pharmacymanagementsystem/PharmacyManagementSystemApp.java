@@ -20,6 +20,8 @@ import com.itextpdf.layout.element.Paragraph;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -375,8 +377,14 @@ public class PharmacyManagementSystemApp extends Application {
         // Set initial file name to the saleID
         fileChooser.setInitialFileName(sale.getSaleID() + ".pdf");
 
+        String userHome = System.getProperty("user.home");
+
+        // Append the Downloads folder to the user's home directory
+        Path downloadsPath = Paths.get(userHome, "Downloads");
+
+
         // Set initial directory to user's home directory
-        fileChooser.setInitialDirectory(new File("D:\\Projects\\Receipts"));
+        fileChooser.setInitialDirectory(new File(downloadsPath.toString()));
 
 
         File file = fileChooser.showSaveDialog(null);

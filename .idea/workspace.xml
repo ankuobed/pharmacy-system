@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/school/pharmacymanagementsystem/HelloApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/school/pharmacymanagementsystem/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/school/pharmacymanagementsystem/PharmacyManagementSystemApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/school/pharmacymanagementsystem/PharmacyManagementSystemApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/school/pharmacymanagementsystem/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/school/pharmacymanagementsystem/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
