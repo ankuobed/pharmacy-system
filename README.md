@@ -1,4 +1,3 @@
-d
 # Pharmacy Management System
 
 This Pharmacy Management System is a Java-based application designed to streamline the management of a pharmacy. Developed using IntelliJ IDEA and MySQL as the database, this system offers a range of features to efficiently handle various pharmacy operations.
@@ -9,6 +8,7 @@ This Pharmacy Management System is a Java-based application designed to streamli
 - **Remove Drugs**: Remove drugs from the inventory when they are no longer available or needed.
 - **Search Drugs**: Quickly search for drugs in the inventory using different criteria.
 - **Sales Tracking**: Retrieve sales records based on date and time to monitor transactions and generate reports.
+- **Receipt Printing**: Print a particular receipt in pdf format.
 
 ## Technologies Used
 
@@ -16,29 +16,20 @@ This Pharmacy Management System is a Java-based application designed to streamli
 - **IntelliJ IDEA**: The integrated development environment (IDE) used for development.
 - **MySQL**: The relational database management system used for storing and managing data.
 
-## Getting Started
-
-### Prerequisites
-
-- [Java JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (version 20 or higher)
-- [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
-- [MySQL](https://dev.mysql.com/downloads/installer/)
-- [MySQL Java Connector]
 
 ### Installation
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/pharmacy-management-system.git
-   cd pharmacy-management-system
+   git clone https://github.com/ankuobed/pharmacy-system.git
+   cd pharmacy-system
    ```
 
 2. **Setup MySQL Database**
    - Create a new database in MySQL.
-   - Run `mysql -u username -p < ./database_setup.sql` on macOS or `Get-Content ./database_setup.sql | mysql -u root -p` on windows to set up the necessary tables.
-
-3. **Configure Database Connection**
-   - Update the database connection details in the configuration file (e.g., `db.properties`).
+   - On macos run `mysql -u username -p < ./database_setup.sql`.
+   - On windows run `Get-Content ./database_setup.sql | mysql -u username -p`.
+   - Replace the PASSWORD constant in the DatabaseConnection file with your database password.
 
 4. **Run the Application**
    - Open the project in IntelliJ IDEA.
@@ -54,8 +45,3 @@ This Pharmacy Management System is a Java-based application designed to streamli
 ## Contributing
 
 Contributions are welcome! Please fork this repository and submit pull requests for any improvements or new features.
-
-## Contact
-
-For any inquiries or support, please contact [sakyie546@gmail.com](mailto:sakyie546@gmail.com).
-# pharmacy-system
