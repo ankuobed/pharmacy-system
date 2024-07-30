@@ -35,7 +35,7 @@ This Pharmacy Management System is a Java-based application designed to streamli
 
 2. **Setup MySQL Database**
    - Create a new database in MySQL.
-   - Run the provided SQL script (`mysql -u username database_setup.sql -p`) to set up the necessary tables.
+   - Run the provided SQL script (`mysql -u username ./database_setup.sql -p`) to set up the necessary tables.
 
 3. **Configure Database Connection**
    - Update the database connection details in the configuration file (e.g., `db.properties`).
